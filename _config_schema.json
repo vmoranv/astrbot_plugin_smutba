@@ -1,0 +1,37 @@
+{
+    "proxy": {
+        "description": "代理服务器地址（可选），格式如 http://127.0.0.1:7890",
+        "type": "string",
+        "default": ""
+    },
+    "blur_level": {
+        "description": "缩略图模糊程度 (0-100)，0为不模糊，100为完全模糊",
+        "type": "int",
+        "default": 0
+    },
+    "max_results": {
+        "description": "每次搜索返回的最大结果数",
+        "type": "int",
+        "default": 10
+    },
+    "timeout": {
+        "description": "网络请求超时时间（秒）",
+        "type": "int",
+        "default": 30
+    },
+    "cache_dir": {
+        "description": "缓存目录名称（相对于插件数据目录）",
+        "type": "string",
+        "default": "cache"
+    },
+    "auto_cleanup": {
+        "description": "是否在发送下一条消息前自动清理上次的缓存文件",
+        "type": "bool",
+        "default": true
+    },
+    "show_thumbnail": {
+        "description": "是否显示模型缩略图",
+        "type": "bool",
+        "default": true
+    }
+}
